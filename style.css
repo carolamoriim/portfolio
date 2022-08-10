@@ -10,6 +10,11 @@ body {
     background-color: #22212C;
 }
 
+a {
+    color: #837E9F;
+    text-decoration: none;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -56,6 +61,7 @@ body {
 font-family: 'Merriweather Sans', sans-serif;
 font-weight: 700;
 font-size: 23px;
+text-align: center;
 } 
 
 #segundo {
@@ -63,6 +69,7 @@ font-size: 23px;
     font-weight: 300;
     font-size: 13px;
     margin-top: 10px;
+    text-align: center;
 }
 
 #links {
@@ -170,11 +177,16 @@ font-size: 23px;
     gap: 20px;
 } 
 
+#projeto1:hover, #projeto2:hover {
+    opacity: 0.8;;
+}
+
 #projeto1 {
     width: 100%;
     border-radius: 20px;
     background-color: #302F3D;
     padding: 20px;
+    cursor: pointer;
 }
 
 .onix {
@@ -251,6 +263,7 @@ font-size: 23px;
     border-radius: 20px;
     background-color: #302F3D;
     padding: 20px;
+    cursor: pointer;
 }
 
 #projeto {
@@ -342,3 +355,4 @@ font-size: 23px;
     display: flex;
     gap: 10px;
 }
+
